@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/edit"
+            android:icon="@mipmap/edit"
+            android:title="@string/personal_information"/>
+        <item
+            android:id="@+id/course"
+            android:icon="@mipmap/course"
+            android:title="@string/my_course"/>
+        <item
+            android:id="@+id/collection"
+            android:icon="@mipmap/collection"
+            android:title="@string/my_collection"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/setting"
+            android:icon="@mipmap/setting"
+            android:title="@string/setting"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/out"
+            android:icon="@mipmap/out"
+            android:title="@string/out"/>
+    </group>
+</menu>

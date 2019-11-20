@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:background="@drawable/background_01">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/header"
+            android:src="@drawable/default_head"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/name"
+            android:text="@string/name"
+            android:textSize="14sp"
+            android:textColor="@color/colorIcon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/profession"
+            android:text="@string/profession"
+            android:textSize="14sp"
+            android:textColor="@color/colorIcon"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
